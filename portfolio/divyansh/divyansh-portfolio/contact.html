@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyanshu - web developer</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href=".\assets\images\images.jpg" type="image/svg+xml"> 
+
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        gap: 5px;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #fcd9e6;
+        animation: anima;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-delay: 0.3s;
+        animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+
+    }
+    @keyframes anima {
+        0% {
+            filter: hue-rotate(0deg);
+        }
+        100% {
+            filter: hue-rotate(360deg);
+        }
+
+      
+    }
+
+
+    .item{
+        width: 100%;
+        height: 100%;
+        animation: anim;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-delay: 0.3s;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes anim {
+        0% {
+            filter: hue-rotate(0deg);
+        }
+        100% {
+            filter: hue-rotate(360deg);
+        }
+    }
+
+
+
+
+
+
+
+    #contact {
+        position: relative;
+        width: 100%;
+        padding: 30px 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #contact h1 {
+        position: relative;
+        font-size: 36px;
+        font-weight: 500;
+        color: #3a6cf4;
+        margin-bottom: 20px;
+        text-align: center;
+        }
+
+    #contact p {
+        position: relative;
+        font-size: 16px;
+        font-weight: 300;
+        color: #111;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .social-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-icon a {
+        position: relative;
+        margin: 0 10px;
+        text-decoration: none;
+        color: #111;
+    }
+
+    .social-icon a ion-icon {
+        font-size: 30px;
+    }
+
+    .social-icon a:hover {
+        color: #3a6cf4;
+    }
+
+    .social-icon a:hover ion-icon {
+        color: #3a6cf4;
+    }
+
+    .purple {
+        color: #3a6cf4;
+    }
+
+    .purple:hover {
+        color: #ef277e;
+    }
+
+    .purple:hover ion-icon {
+        color: #f8f8f8;
+    }
+
+    .bx-current-location {
+        color: #3a6cf4;
+    }
+
+    .bx-current-location:hover {
+        color: #ed5a1c;
+    }
+
+    .bx-current-location:hover ion-icon {
+        color: #f8f8f8;
+    }
+
+    .bx-envelope {
+        color: #3a6cf4;
+    }
+
+    .bx-envelope:hover {
+        color: #f8f8f8;
+    }
+
+    .bx-envelope:hover ion-icon {
+        color: #f8f8f8;
+    }
+
+    .bx-phone {
+        color: #3a6cf4;
+    }
+
+    .bx-phone:hover {
+        color: #f8f8f8;
+    }
+
+    .bx-phone:hover ion-icon {
+        color: #f8f8f8;
+    }
+
+    .bxl-whatsapp {
+        color: #3a6cf4;
+    }
+
+    .bxl-whatsapp:hover {
+        color: #42dd70;
+    }
+
+    .bxl-whatsapp:hover ion-icon {
+        color: #f8f8f8;
+    }
+
+    h4{
+        color: rgb(71, 69, 69);
+    }
+
+
+
+    .image {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+    
+    
+    
+    
+</style>
+
+<body>
+    <div class="item">
+        <div id="contact">
+            <h1><span class="purple">CONTACT</span> ME</h1>
+            <p><i class="bx bx-current-location"></i>India, Delhi</p>
+            <p><i class="bx bxs-envelope"></i>divyanshusini651@gmail.com</p>
+            <p><i class="bx bxs-phone"></i>(+91)8083247869</p>
+            <p><i class="bx bxl-whatsapp"></i>80832457869</p>
+
+            <img src="./assets/images/img.jpg" class="image">
+            <div class="social-icon">
+              <h2>FIND ME ON</h2>
+              <h4>Feel free to <span class="purple">connect</span> with me</h4>
+
+             
+              </div>
+             
+    </div>
+
+    
+        
+    
+</body>
+</html>
